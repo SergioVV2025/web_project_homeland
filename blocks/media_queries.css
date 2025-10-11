@@ -115,7 +115,7 @@
   }
 
   .intro {
-    width: 95%;
+    width: 94%;
     margin-top: 64px;
   }
 
@@ -163,7 +163,7 @@
   }
 
   .places__title {
-    width: 93%;
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
     grid-column: 1;
@@ -172,7 +172,7 @@
   }
 
   .places__website {
-    width: 93%;
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
     grid-column: 1;
@@ -186,7 +186,7 @@
   }
 
   .places__text-container {
-    width: 93%;
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
     grid-column: 1;
@@ -194,7 +194,7 @@
   }
 
   .places__frame-compra {
-    width: 93%;
+    width: 94%;
     margin: 0 auto;
     grid-column: 1;
     grid-row: 5;

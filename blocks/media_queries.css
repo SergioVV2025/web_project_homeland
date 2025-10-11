@@ -65,22 +65,22 @@
     gap: 72px;
   }
 
-  .place {
+  .places__card {
     column-gap: 28px;
   }
 
-  .place__title {
+  .places__title {
     width: 100%;
     font-size: 42px;
     line-height: 1.1;
     align-content: end;
   }
 
-  .place__frame-compra {
+  .places__frame-compra {
     width: 93%;
   }
 
-  .place__text {
+  .places__text {
     width: 100%;
     font-size: 16px;
   }
@@ -154,7 +154,7 @@
     gap: 50px;
   }
 
-  .place {
+  .places__card {
     width: 100%;
     grid-template-columns: 1fr 0;
     grid-template-rows: repeat(5, auto);
@@ -162,7 +162,7 @@
     row-gap: 30px;
   }
 
-  .place__title {
+  .places__title {
     width: 93%;
     margin-left: auto;
     margin-right: auto;
@@ -171,7 +171,7 @@
     font-size: 32px;
   }
 
-  .place__website {
+  .places__website {
     width: 93%;
     margin-left: auto;
     margin-right: auto;
@@ -179,13 +179,13 @@
     grid-row: 2;
   }
 
-  .place__image {
+  .places__image {
     grid-column: 1;
     grid-row: 3;
     box-shadow: none;
   }
 
-  .place__text-container {
+  .places__text-container {
     width: 93%;
     margin-left: auto;
     margin-right: auto;
@@ -193,14 +193,14 @@
     grid-row: 4;
   }
 
-  .place__frame-compra {
+  .places__frame-compra {
     width: 93%;
     margin: 0 auto;
     grid-column: 1;
     grid-row: 5;
   }
 
-  .place__text-compra {
+  .places__text-compra {
     font-size: 14px;
     text-align: center;
   }

@@ -1,52 +1,35 @@
 .places {
   width: 77.11%;
+  margin: 0 auto;
   margin-top: 92px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .place {
   width: 100%;
-  display: flex;
-}
-
-.place_margin-top {
-  margin-top: 80px;
-}
-
-.place_margin-top_muramvya {
-  margin-top: 80px;
-}
-
-.place__column {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-.place__column_align_left {
-  justify-content: flex-start;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.94fr 1.06fr;
+  grid-template-rows: auto auto auto;
+  column-gap: 40px;
+  row-gap: 48px;
 }
 
 .place__title {
-  width: 93.5%;
   font-size: 72px;
   font-weight: 900;
   line-height: 1.06;
-}
-
-.place__title_cricieth {
-  margin-top: 0;
-}
-
-.place__title_muramvya {
-  margin-top: 0;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .place__image {
-  width: 93.5%;
-  margin-top: 48px;
+  width: 100%;
   box-shadow: 10px 10px 25px #000000;
+  grid-column: 1;
+  grid-row: 2;
 }
 
 .place__image:hover {
@@ -54,12 +37,13 @@
 }
 
 .place__frame-compra {
-  margin-top: 48px;
-  width: 62%;
+  width: 68%;
   padding: 13px 20px;
   background: linear-gradient(to right, #0278fe 0%, #003a7b 100%);
   box-shadow: 5px 5px 10px #000000;
   border-radius: 4px;
+  grid-column: 1;
+  grid-row: 3;
 }
 
 .place__frame-compra:hover {
@@ -79,17 +63,12 @@
 }
 
 .place__website {
-  width: 92.7%;
-  margin-top: 85px;
-  margin-bottom: 48px;
-}
-
-.place__website_margin-top {
-  margin-top: calc(85px + 22px);
+  grid-column: 2;
+  grid-row: 1;
+  align-content: end;
 }
 
 .place__url-heading {
-  width: 18.6%;
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
@@ -97,27 +76,27 @@
   margin-bottom: 8px;
 }
 
-.place__artist-top {
-  width: 72.37%;
+.place__artist {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.22;
 }
 
-.place__artist-bottom {
-  width: 100%;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.22;
+.place__text-container {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.place__text-container_span {
+  grid-row: 2 / span 3;
 }
 
 .place__text {
-  width: 98.4%;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.63;
-}
-
-.place__text_margin-bottom {
-  margin-bottom: 25px;
 }

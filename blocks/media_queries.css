@@ -60,46 +60,24 @@
   }
 
   .places {
-    width: 93.75%;
+    width: 95%;
     margin-top: 88px;
+    gap: 72px;
   }
 
-  .place_margin-top {
-    margin-top: 72px;
-  }
-
-  .place_margin-top_muramvya {
-    margin-top: calc(72px + 48px);
+  .place {
+    column-gap: 28px;
   }
 
   .place__title {
-    width: 94.5%;
+    width: 100%;
     font-size: 42px;
     line-height: 1.1;
-  }
-
-  .place__title_cricieth {
-    margin-top: 22px;
-  }
-
-  .place__title_muramvya {
-    margin-top: -48px;
-  }
-
-  .place__image {
-    width: 94.5%;
+    align-content: end;
   }
 
   .place__frame-compra {
-    width: 86%;
-  }
-
-  .place__website {
-    margin-top: 0;
-  }
-
-  .place__artist-top {
-    width: 100%;
+    width: 93%;
   }
 
   .place__text {
@@ -162,8 +140,73 @@
     width: 100%;
   }
 
+  .photo-grid {
+    width: 90.3%;
+    margin-top: 38px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 12px;
+  }
+
+  .places {
+    width: 100%;
+    margin-top: 62px;
+    gap: 50px;
+  }
+
+  .place {
+    width: 100%;
+    grid-template-columns: 1fr 0;
+    grid-template-rows: repeat(5, auto);
+    column-gap: 0;
+    row-gap: 30px;
+  }
+
+  .place__title {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 32px;
+  }
+
+  .place__website {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .place__image {
+    grid-column: 1;
+    grid-row: 3;
+    box-shadow: none;
+  }
+
+  .place__text-container {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .place__frame-compra {
+    width: 93%;
+    margin: 0 auto;
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .place__text-compra {
+    font-size: 14px;
+    text-align: center;
+  }
+
   .footer {
-    margin: 64px auto 24px;
+    margin: 65px auto 24px;
     line-height: 1;
   }
 }

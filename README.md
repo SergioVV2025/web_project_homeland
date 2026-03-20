@@ -44,7 +44,7 @@ Puntos de ruptura específicos: 544px y 1024px
 ### Middle 1024px
 ![Middle 1024](./images/homeland2_2.jpg)
 
-### bottom 544px
+### Bottom 544px
 ![Bottom 544](./images/homeland3_2.jpg)
 
 🛠️ Tech Stack

@@ -29,11 +29,22 @@ Puntos de ruptura específicos: 544px y 1024px
 
 📸 Preview
 
+### Top 1280px
 ![Top 1280](./images/homeland1.jpg)
+
+### Middle 1280px
 ![Middle 1280](./images/homeland2.jpg)
+
+### Bottom 1280px
 ![Bottom 1280](./images/homeland3.jpg)
+
+### Top 1024px
 ![Top 1024](./images/homeland1_2.jpg)
+
+### Middle 1024px
 ![Middle 1024](./images/homeland2_2.jpg)
+
+### bottom 544px
 ![Bottom 544](./images/homeland3_2.jpg)
 
 🛠️ Tech Stack

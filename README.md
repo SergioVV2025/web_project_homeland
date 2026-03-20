@@ -32,9 +32,9 @@ Puntos de ruptura específicos: 544px y 1024px
 ![Top 1280](./images/homeland1.jpg)
 ![Middle 1280](./images/homeland2.jpg)
 ![Bottom 1280](./images/homeland3.jpg)
-![Top 1024](./images/homeland1_1.jpg)
-![Middle 1024](./images/homeland2_1.jpg)
-![Bottom 544](./images/homeland3_1.jpg)
+![Top 1024](./images/homeland1_2.jpg)
+![Middle 1024](./images/homeland2_2.jpg)
+![Bottom 544](./images/homeland3_2.jpg)
 
 🛠️ Tech Stack
 

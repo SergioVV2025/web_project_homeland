@@ -71,7 +71,3 @@ Puntos de ruptura específicos: 544px y 1024px
 - Importancia de jerarquía visual
 - Adaptación de contenido a distintos dispositivos
 
-👨‍💻 Autor
-
-Sergio Verástegui Vega
-
